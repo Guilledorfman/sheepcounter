@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+*{
+  text-align:center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-cont{
+  display:flex;
+  background-color: #000;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  margin:auto;
+  display: flex;
+  height: 400px;
+  width: 1000px;
+  background-color: #000;
+  background-image: url('https://www.pngkey.com/png/full/62-627061_space-backgrounds-png-space-transparent-background-stars-png.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 300px 100px #000 inset;
+  justify-content: center;
+  align-items: center;
+  padding:30px;
+ 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-cont{
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+.img-cont img{
+  position: absolute;
+  left:0;
+}
+#frame{
+  width: 400px;
+  height: 300px;
+  z-index: 100;
+}
+.contador-cont{
+  padding: 35px;
+  color:white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 500px;
+  height: 100%;
+  justify-content: space-evenly;
 }
-
-.App-link {
-  color: #61dafb;
+.contador-cont h3{
+  font-size: 50px;
+  margin: auto;
+  width: 100px;
+  background-color: #ffffff11;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contador-cont h1{
+  font-size: 50px;
+}
+.cont-botones{
+  display: flex;
+}
+.cont-botones button{
+  outline: none;
+  font-size: 40px;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+#reset{
+  font-size:30px;
+}
+button:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
