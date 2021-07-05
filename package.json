@@ -1,4 +1,4 @@
-{ "homepage": "http://guilledorfman.github.io/reactcounter"
+{ "homepage": "http://guilledorfman.github.io/reactcounter",
   "name": "prueba-redux",
   "version": "0.1.0",
   "private": true,
